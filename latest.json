@@ -1,0 +1,1394 @@
+{
+  "object": "list",
+  "data": [
+    {
+      "object": "model",
+      "id": "gpt-4o-audio-preview-2024-12-17",
+      "supported_methods": [
+        "chat.completions"
+      ],
+      "groups": [
+        "gpt_4o"
+      ],
+      "features": [
+        "streaming",
+        "audio",
+        "function_calling",
+        "parallel_tool_calls",
+        "system_message",
+        "advanced_config",
+        "file_search",
+        "file_content"
+      ],
+      "max_tokens": 16384
+    },
+    {
+      "object": "model",
+      "id": "dall-e-3",
+      "supported_methods": [],
+      "groups": [],
+      "features": [],
+      "max_tokens": 2049
+    },
+    {
+      "object": "model",
+      "id": "text-embedding-3-large",
+      "supported_methods": [
+        "embedding"
+      ],
+      "groups": [],
+      "features": [],
+      "max_tokens": 2049
+    },
+    {
+      "object": "model",
+      "id": "dall-e-2",
+      "supported_methods": [],
+      "groups": [],
+      "features": [],
+      "max_tokens": 2049
+    },
+    {
+      "object": "model",
+      "id": "o4-mini-2025-04-16",
+      "supported_methods": [
+        "chat.completions",
+        "responses"
+      ],
+      "groups": [
+        "reasoning"
+      ],
+      "features": [
+        "streaming",
+        "function_calling",
+        "developer_message",
+        "image_content",
+        "response_json_object",
+        "response_json_schema",
+        "reasoning_effort",
+        "detailed_reasoning_summary",
+        "file_content"
+      ],
+      "max_tokens": 256000
+    },
+    {
+      "object": "model",
+      "id": "gpt-4o-audio-preview-2024-10-01",
+      "supported_methods": [
+        "chat.completions"
+      ],
+      "groups": [
+        "gpt_4o"
+      ],
+      "features": [
+        "streaming",
+        "audio",
+        "function_calling",
+        "parallel_tool_calls",
+        "system_message",
+        "advanced_config",
+        "file_search",
+        "file_content"
+      ],
+      "max_tokens": 16384
+    },
+    {
+      "object": "model",
+      "id": "gpt-4-32k",
+      "supported_methods": [
+        "chat.completions",
+        "responses"
+      ],
+      "groups": [
+        "gpt_4"
+      ],
+      "features": [
+        "streaming",
+        "function_calling",
+        "parallel_tool_calls",
+        "system_message",
+        "image_content",
+        "response_json_object",
+        "advanced_config"
+      ],
+      "max_tokens": 32768
+    },
+    {
+      "object": "model",
+      "id": "o4-mini",
+      "supported_methods": [
+        "chat.completions",
+        "responses"
+      ],
+      "groups": [
+        "reasoning"
+      ],
+      "features": [
+        "streaming",
+        "function_calling",
+        "developer_message",
+        "image_content",
+        "response_json_object",
+        "response_json_schema",
+        "reasoning_effort",
+        "detailed_reasoning_summary",
+        "file_content"
+      ],
+      "max_tokens": 256000
+    },
+    {
+      "object": "model",
+      "id": "gpt-4.1-nano",
+      "supported_methods": [
+        "chat.completions",
+        "responses"
+      ],
+      "groups": [
+        "gpt_4_1"
+      ],
+      "features": [
+        "streaming",
+        "function_calling",
+        "parallel_tool_calls",
+        "system_message",
+        "image_content",
+        "response_json_object",
+        "response_json_schema",
+        "advanced_config",
+        "file_search",
+        "file_content"
+      ],
+      "max_tokens": 32768
+    },
+    {
+      "object": "model",
+      "id": "gpt-4.1-nano-2025-04-14",
+      "supported_methods": [
+        "chat.completions",
+        "responses"
+      ],
+      "groups": [
+        "gpt_4_1"
+      ],
+      "features": [
+        "streaming",
+        "function_calling",
+        "parallel_tool_calls",
+        "system_message",
+        "image_content",
+        "response_json_object",
+        "response_json_schema",
+        "advanced_config",
+        "file_search",
+        "file_content"
+      ],
+      "max_tokens": 32768
+    },
+    {
+      "object": "model",
+      "id": "gpt-4o-realtime-preview-2024-10-01",
+      "supported_methods": [
+        "realtime"
+      ],
+      "groups": [
+        "gpt_4o"
+      ],
+      "features": [
+        "streaming",
+        "function_calling"
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "object": "model",
+      "id": "gpt-4o-realtime-preview",
+      "supported_methods": [
+        "realtime"
+      ],
+      "groups": [
+        "gpt_4o"
+      ],
+      "features": [
+        "streaming",
+        "function_calling"
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "object": "model",
+      "id": "babbage-002",
+      "supported_methods": [
+        "completions"
+      ],
+      "groups": [],
+      "features": [
+        "streaming",
+        "advanced_config"
+      ],
+      "max_tokens": 2049
+    },
+    {
+      "object": "model",
+      "id": "gpt-4-turbo-preview",
+      "supported_methods": [
+        "chat.completions",
+        "responses"
+      ],
+      "groups": [
+        "gpt_4"
+      ],
+      "features": [
+        "streaming",
+        "function_calling",
+        "parallel_tool_calls",
+        "system_message",
+        "image_content",
+        "response_json_object",
+        "advanced_config",
+        "file_search",
+        "file_content"
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "object": "model",
+      "id": "gpt-4-32k-0613",
+      "supported_methods": [
+        "chat.completions",
+        "responses"
+      ],
+      "groups": [
+        "gpt_4"
+      ],
+      "features": [
+        "streaming",
+        "function_calling",
+        "parallel_tool_calls",
+        "system_message",
+        "image_content",
+        "response_json_object",
+        "advanced_config"
+      ],
+      "max_tokens": 32768
+    },
+    {
+      "object": "model",
+      "id": "tts-1-hd-1106",
+      "supported_methods": [
+        "audio.speech"
+      ],
+      "groups": [],
+      "features": [],
+      "max_tokens": 2049
+    },
+    {
+      "object": "model",
+      "id": "gpt-4-0125-preview",
+      "supported_methods": [
+        "chat.completions",
+        "responses"
+      ],
+      "groups": [
+        "gpt_4"
+      ],
+      "features": [
+        "streaming",
+        "function_calling",
+        "parallel_tool_calls",
+        "system_message",
+        "image_content",
+        "response_json_object",
+        "advanced_config"
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "object": "model",
+      "id": "gpt-4",
+      "supported_methods": [
+        "chat.completions",
+        "responses"
+      ],
+      "groups": [
+        "gpt_4"
+      ],
+      "features": [
+        "streaming",
+        "function_calling",
+        "parallel_tool_calls",
+        "system_message",
+        "image_content",
+        "response_json_object",
+        "advanced_config"
+      ],
+      "max_tokens": 8192
+    },
+    {
+      "object": "model",
+      "id": "text-embedding-ada-002",
+      "supported_methods": [
+        "embedding"
+      ],
+      "groups": [],
+      "features": [],
+      "max_tokens": 2049
+    },
+    {
+      "object": "model",
+      "id": "o3-2025-04-16",
+      "supported_methods": [
+        "chat.completions",
+        "responses"
+      ],
+      "groups": [
+        "reasoning"
+      ],
+      "features": [
+        "streaming_if_verified",
+        "function_calling",
+        "developer_message",
+        "image_content",
+        "response_json_object",
+        "response_json_schema",
+        "reasoning_effort",
+        "detailed_reasoning_summary",
+        "file_content"
+      ],
+      "max_tokens": 256000
+    },
+    {
+      "object": "model",
+      "id": "tts-1-hd",
+      "supported_methods": [
+        "audio.speech"
+      ],
+      "groups": [],
+      "features": [],
+      "max_tokens": 2049
+    },
+    {
+      "object": "model",
+      "id": "gpt-4o-mini-audio-preview",
+      "supported_methods": [
+        "chat.completions"
+      ],
+      "groups": [
+        "gpt_4o"
+      ],
+      "features": [
+        "streaming",
+        "audio",
+        "function_calling",
+        "parallel_tool_calls",
+        "system_message",
+        "advanced_config",
+        "file_search",
+        "file_content"
+      ],
+      "max_tokens": 16384
+    },
+    {
+      "object": "model",
+      "id": "gpt-4o-audio-preview",
+      "supported_methods": [
+        "chat.completions"
+      ],
+      "groups": [
+        "gpt_4o"
+      ],
+      "features": [
+        "streaming",
+        "audio",
+        "function_calling",
+        "parallel_tool_calls",
+        "system_message",
+        "advanced_config",
+        "file_search",
+        "file_content"
+      ],
+      "max_tokens": 16384
+    },
+    {
+      "object": "model",
+      "id": "o1-preview-2024-09-12",
+      "supported_methods": [
+        "chat.completions"
+      ],
+      "groups": [
+        "reasoning"
+      ],
+      "features": [
+        "streaming"
+      ],
+      "max_tokens": 32768
+    },
+    {
+      "object": "model",
+      "id": "o3",
+      "supported_methods": [
+        "chat.completions",
+        "responses"
+      ],
+      "groups": [
+        "reasoning"
+      ],
+      "features": [
+        "streaming_if_verified",
+        "function_calling",
+        "developer_message",
+        "image_content",
+        "response_json_object",
+        "response_json_schema",
+        "reasoning_effort",
+        "detailed_reasoning_summary",
+        "file_content"
+      ],
+      "max_tokens": 256000
+    },
+    {
+      "object": "model",
+      "id": "gpt-4o-mini-realtime-preview",
+      "supported_methods": [
+        "realtime"
+      ],
+      "groups": [
+        "gpt_4o"
+      ],
+      "features": [
+        "streaming",
+        "function_calling"
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "object": "model",
+      "id": "gpt-4.1-mini",
+      "supported_methods": [
+        "chat.completions",
+        "responses"
+      ],
+      "groups": [
+        "gpt_4_1"
+      ],
+      "features": [
+        "streaming",
+        "function_calling",
+        "parallel_tool_calls",
+        "system_message",
+        "image_content",
+        "response_json_object",
+        "response_json_schema",
+        "advanced_config",
+        "file_search",
+        "web_search",
+        "file_content"
+      ],
+      "max_tokens": 32768
+    },
+    {
+      "object": "model",
+      "id": "gpt-4o-mini-realtime-preview-2024-12-17",
+      "supported_methods": [
+        "realtime"
+      ],
+      "groups": [
+        "gpt_4o"
+      ],
+      "features": [
+        "streaming",
+        "function_calling"
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "object": "model",
+      "id": "gpt-3.5-turbo-instruct-0914",
+      "supported_methods": [
+        "completions"
+      ],
+      "groups": [
+        "gpt_3"
+      ],
+      "features": [
+        "streaming",
+        "advanced_config"
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "object": "model",
+      "id": "gpt-4o-mini-search-preview",
+      "supported_methods": [
+        "chat.completions"
+      ],
+      "groups": [
+        "gpt_4o"
+      ],
+      "features": [
+        "streaming",
+        "system_message",
+        "response_json_schema",
+        "web_search"
+      ],
+      "max_tokens": 16384
+    },
+    {
+      "object": "model",
+      "id": "gpt-4.1-mini-2025-04-14",
+      "supported_methods": [
+        "chat.completions",
+        "responses"
+      ],
+      "groups": [
+        "gpt_4_1"
+      ],
+      "features": [
+        "streaming",
+        "function_calling",
+        "parallel_tool_calls",
+        "system_message",
+        "image_content",
+        "response_json_object",
+        "response_json_schema",
+        "advanced_config",
+        "file_search",
+        "web_search",
+        "file_content"
+      ],
+      "max_tokens": 32768
+    },
+    {
+      "object": "model",
+      "id": "tts-1-1106",
+      "supported_methods": [
+        "audio.speech"
+      ],
+      "groups": [],
+      "features": [],
+      "max_tokens": 2049
+    },
+    {
+      "object": "model",
+      "id": "chatgpt-4o-latest",
+      "supported_methods": [
+        "chat.completions",
+        "responses"
+      ],
+      "groups": [],
+      "features": [
+        "streaming",
+        "system_message",
+        "image_content",
+        "advanced_config"
+      ],
+      "max_tokens": 16384
+    },
+    {
+      "object": "model",
+      "id": "davinci-002",
+      "supported_methods": [
+        "completions"
+      ],
+      "groups": [],
+      "features": [
+        "streaming",
+        "advanced_config"
+      ],
+      "max_tokens": 2049
+    },
+    {
+      "object": "model",
+      "id": "gpt-3.5-turbo-1106",
+      "supported_methods": [
+        "chat.completions",
+        "responses"
+      ],
+      "groups": [
+        "gpt_3"
+      ],
+      "features": [
+        "streaming",
+        "function_calling",
+        "parallel_tool_calls",
+        "system_message",
+        "response_json_object",
+        "advanced_config"
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "object": "model",
+      "id": "gpt-4o-search-preview",
+      "supported_methods": [
+        "chat.completions"
+      ],
+      "groups": [
+        "gpt_4o"
+      ],
+      "features": [
+        "streaming",
+        "system_message",
+        "response_json_schema",
+        "web_search"
+      ],
+      "max_tokens": 16384
+    },
+    {
+      "object": "model",
+      "id": "gpt-4-turbo",
+      "supported_methods": [
+        "chat.completions",
+        "responses"
+      ],
+      "groups": [
+        "gpt_4"
+      ],
+      "features": [
+        "streaming",
+        "function_calling",
+        "parallel_tool_calls",
+        "system_message",
+        "image_content",
+        "response_json_object",
+        "advanced_config",
+        "file_search",
+        "file_content"
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "object": "model",
+      "id": "gpt-4o-realtime-preview-2024-12-17",
+      "supported_methods": [
+        "realtime"
+      ],
+      "groups": [
+        "gpt_4o"
+      ],
+      "features": [
+        "streaming",
+        "function_calling"
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "object": "model",
+      "id": "gpt-3.5-turbo-instruct",
+      "supported_methods": [
+        "completions"
+      ],
+      "groups": [
+        "gpt_3"
+      ],
+      "features": [
+        "streaming",
+        "advanced_config"
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "object": "model",
+      "id": "gpt-3.5-turbo",
+      "supported_methods": [
+        "chat.completions",
+        "responses"
+      ],
+      "groups": [
+        "gpt_3"
+      ],
+      "features": [
+        "streaming",
+        "function_calling",
+        "parallel_tool_calls",
+        "system_message",
+        "response_json_object",
+        "advanced_config"
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "object": "model",
+      "id": "gpt-4o-mini-search-preview-2025-03-11",
+      "supported_methods": [
+        "chat.completions"
+      ],
+      "groups": [
+        "gpt_4o"
+      ],
+      "features": [
+        "streaming",
+        "system_message",
+        "response_json_schema",
+        "web_search"
+      ],
+      "max_tokens": 16384
+    },
+    {
+      "object": "model",
+      "id": "gpt-4o-2024-11-20",
+      "supported_methods": [
+        "chat.completions",
+        "responses"
+      ],
+      "groups": [
+        "gpt_4o"
+      ],
+      "features": [
+        "streaming",
+        "function_calling",
+        "parallel_tool_calls",
+        "system_message",
+        "image_content",
+        "response_json_object",
+        "response_json_schema",
+        "advanced_config",
+        "file_search",
+        "web_search",
+        "file_content"
+      ],
+      "max_tokens": 16384
+    },
+    {
+      "object": "model",
+      "id": "whisper-1",
+      "supported_methods": [
+        "audio.transcription"
+      ],
+      "groups": [],
+      "features": [],
+      "max_tokens": 2049
+    },
+    {
+      "object": "model",
+      "id": "gpt-4o-2024-05-13",
+      "supported_methods": [
+        "chat.completions",
+        "responses"
+      ],
+      "groups": [
+        "gpt_4o"
+      ],
+      "features": [
+        "streaming",
+        "function_calling",
+        "parallel_tool_calls",
+        "system_message",
+        "image_content",
+        "response_json_object",
+        "response_json_schema",
+        "advanced_config",
+        "file_search",
+        "web_search",
+        "file_content"
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "object": "model",
+      "id": "gpt-4-turbo-2024-04-09",
+      "supported_methods": [
+        "chat.completions",
+        "responses"
+      ],
+      "groups": [
+        "gpt_4"
+      ],
+      "features": [
+        "streaming",
+        "function_calling",
+        "parallel_tool_calls",
+        "system_message",
+        "image_content",
+        "response_json_object",
+        "advanced_config",
+        "file_search",
+        "file_content"
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "object": "model",
+      "id": "gpt-3.5-turbo-16k",
+      "supported_methods": [
+        "chat.completions",
+        "responses"
+      ],
+      "groups": [
+        "gpt_3"
+      ],
+      "features": [
+        "streaming",
+        "function_calling",
+        "parallel_tool_calls",
+        "system_message",
+        "response_json_object",
+        "advanced_config"
+      ],
+      "max_tokens": 16385
+    },
+    {
+      "object": "model",
+      "id": "o1-preview",
+      "supported_methods": [
+        "chat.completions"
+      ],
+      "groups": [
+        "reasoning"
+      ],
+      "features": [
+        "streaming"
+      ],
+      "max_tokens": 32768
+    },
+    {
+      "object": "model",
+      "id": "gpt-4-0613",
+      "supported_methods": [
+        "chat.completions",
+        "responses"
+      ],
+      "groups": [
+        "gpt_4"
+      ],
+      "features": [
+        "streaming",
+        "function_calling",
+        "parallel_tool_calls",
+        "system_message",
+        "image_content",
+        "response_json_object",
+        "advanced_config"
+      ],
+      "max_tokens": 8192
+    },
+    {
+      "object": "model",
+      "id": "computer-use-preview-2025-03-11",
+      "supported_methods": [],
+      "groups": [],
+      "features": [],
+      "max_tokens": 2049
+    },
+    {
+      "object": "model",
+      "id": "computer-use-preview",
+      "supported_methods": [],
+      "groups": [],
+      "features": [],
+      "max_tokens": 2049
+    },
+    {
+      "object": "model",
+      "id": "gpt-4.5-preview",
+      "supported_methods": [
+        "chat.completions",
+        "responses"
+      ],
+      "groups": [
+        "gpt_4_5"
+      ],
+      "features": [
+        "streaming",
+        "function_calling",
+        "parallel_tool_calls",
+        "system_message",
+        "image_content",
+        "response_json_object",
+        "response_json_schema",
+        "advanced_config",
+        "file_search",
+        "file_content"
+      ],
+      "max_tokens": 16384
+    },
+    {
+      "object": "model",
+      "id": "gpt-4.5-preview-2025-02-27",
+      "supported_methods": [
+        "chat.completions",
+        "responses"
+      ],
+      "groups": [
+        "gpt_4_5"
+      ],
+      "features": [
+        "streaming",
+        "function_calling",
+        "parallel_tool_calls",
+        "system_message",
+        "image_content",
+        "response_json_object",
+        "response_json_schema",
+        "advanced_config",
+        "file_search",
+        "file_content"
+      ],
+      "max_tokens": 16384
+    },
+    {
+      "object": "model",
+      "id": "gpt-4o-search-preview-2025-03-11",
+      "supported_methods": [
+        "chat.completions"
+      ],
+      "groups": [
+        "gpt_4o"
+      ],
+      "features": [
+        "streaming",
+        "system_message",
+        "response_json_schema",
+        "web_search"
+      ],
+      "max_tokens": 16384
+    },
+    {
+      "object": "model",
+      "id": "tts-1",
+      "supported_methods": [
+        "audio.speech"
+      ],
+      "groups": [],
+      "features": [],
+      "max_tokens": 2049
+    },
+    {
+      "object": "model",
+      "id": "omni-moderation-2024-09-26",
+      "supported_methods": [],
+      "groups": [],
+      "features": [],
+      "max_tokens": 2049
+    },
+    {
+      "object": "model",
+      "id": "text-embedding-3-small",
+      "supported_methods": [
+        "embedding"
+      ],
+      "groups": [],
+      "features": [],
+      "max_tokens": 2049
+    },
+    {
+      "object": "model",
+      "id": "gpt-4o-mini-tts",
+      "supported_methods": [
+        "audio.speech"
+      ],
+      "groups": [
+        "gpt_4o"
+      ],
+      "features": [
+        "streaming"
+      ],
+      "max_tokens": 2049
+    },
+    {
+      "object": "model",
+      "id": "gpt-4o",
+      "supported_methods": [
+        "chat.completions",
+        "responses"
+      ],
+      "groups": [
+        "gpt_4o"
+      ],
+      "features": [
+        "streaming",
+        "function_calling",
+        "parallel_tool_calls",
+        "system_message",
+        "image_content",
+        "response_json_object",
+        "response_json_schema",
+        "advanced_config",
+        "file_search",
+        "web_search",
+        "file_content"
+      ],
+      "max_tokens": 16384
+    },
+    {
+      "object": "model",
+      "id": "o3-mini",
+      "supported_methods": [
+        "chat.completions",
+        "responses"
+      ],
+      "groups": [
+        "reasoning"
+      ],
+      "features": [
+        "streaming",
+        "function_calling",
+        "developer_message",
+        "response_json_object",
+        "response_json_schema",
+        "reasoning_effort",
+        "detailed_reasoning_summary",
+        "file_search"
+      ],
+      "max_tokens": 100000
+    },
+    {
+      "object": "model",
+      "id": "o1-2024-12-17",
+      "supported_methods": [
+        "chat.completions",
+        "responses"
+      ],
+      "groups": [
+        "reasoning"
+      ],
+      "features": [
+        "function_calling",
+        "developer_message",
+        "image_content",
+        "response_json_object",
+        "response_json_schema",
+        "reasoning_effort",
+        "detailed_reasoning_summary",
+        "file_search",
+        "file_content"
+      ],
+      "max_tokens": 100000
+    },
+    {
+      "object": "model",
+      "id": "o3-mini-2025-01-31",
+      "supported_methods": [
+        "chat.completions",
+        "responses"
+      ],
+      "groups": [
+        "reasoning"
+      ],
+      "features": [
+        "streaming",
+        "function_calling",
+        "developer_message",
+        "response_json_object",
+        "response_json_schema",
+        "reasoning_effort",
+        "detailed_reasoning_summary",
+        "file_search"
+      ],
+      "max_tokens": 100000
+    },
+    {
+      "object": "model",
+      "id": "gpt-4o-mini",
+      "supported_methods": [
+        "chat.completions",
+        "responses"
+      ],
+      "groups": [
+        "gpt_4o"
+      ],
+      "features": [
+        "streaming",
+        "function_calling",
+        "parallel_tool_calls",
+        "system_message",
+        "image_content",
+        "response_json_object",
+        "response_json_schema",
+        "advanced_config",
+        "file_search",
+        "web_search",
+        "file_content"
+      ],
+      "max_tokens": 16384
+    },
+    {
+      "object": "model",
+      "id": "o1-pro-2025-03-19",
+      "supported_methods": [
+        "responses"
+      ],
+      "groups": [
+        "reasoning"
+      ],
+      "features": [
+        "function_calling",
+        "developer_message",
+        "image_content",
+        "response_json_object",
+        "response_json_schema",
+        "reasoning_effort",
+        "detailed_reasoning_summary"
+      ],
+      "max_tokens": 100000
+    },
+    {
+      "object": "model",
+      "id": "o1",
+      "supported_methods": [
+        "chat.completions",
+        "responses"
+      ],
+      "groups": [
+        "reasoning"
+      ],
+      "features": [
+        "function_calling",
+        "developer_message",
+        "image_content",
+        "response_json_object",
+        "response_json_schema",
+        "reasoning_effort",
+        "detailed_reasoning_summary",
+        "file_search",
+        "file_content"
+      ],
+      "max_tokens": 100000
+    },
+    {
+      "object": "model",
+      "id": "gpt-4o-2024-08-06",
+      "supported_methods": [
+        "chat.completions",
+        "responses"
+      ],
+      "groups": [
+        "gpt_4o"
+      ],
+      "features": [
+        "streaming",
+        "function_calling",
+        "parallel_tool_calls",
+        "system_message",
+        "image_content",
+        "response_json_object",
+        "response_json_schema",
+        "advanced_config",
+        "file_search",
+        "web_search",
+        "file_content"
+      ],
+      "max_tokens": 16384
+    },
+    {
+      "object": "model",
+      "id": "gpt-4.1",
+      "supported_methods": [
+        "chat.completions",
+        "responses"
+      ],
+      "groups": [
+        "gpt_4_1"
+      ],
+      "features": [
+        "streaming",
+        "function_calling",
+        "parallel_tool_calls",
+        "system_message",
+        "image_content",
+        "response_json_object",
+        "response_json_schema",
+        "advanced_config",
+        "file_search",
+        "web_search",
+        "file_content"
+      ],
+      "max_tokens": 32768
+    },
+    {
+      "object": "model",
+      "id": "gpt-4o-transcribe",
+      "supported_methods": [
+        "audio.transcription"
+      ],
+      "groups": [
+        "gpt_4o"
+      ],
+      "features": [
+        "streaming"
+      ],
+      "max_tokens": 2049
+    },
+    {
+      "object": "model",
+      "id": "gpt-4.1-2025-04-14",
+      "supported_methods": [
+        "chat.completions",
+        "responses"
+      ],
+      "groups": [
+        "gpt_4_1"
+      ],
+      "features": [
+        "streaming",
+        "function_calling",
+        "parallel_tool_calls",
+        "system_message",
+        "image_content",
+        "response_json_object",
+        "response_json_schema",
+        "advanced_config",
+        "file_search",
+        "web_search",
+        "file_content"
+      ],
+      "max_tokens": 32768
+    },
+    {
+      "object": "model",
+      "id": "o1-pro",
+      "supported_methods": [
+        "responses"
+      ],
+      "groups": [
+        "reasoning"
+      ],
+      "features": [
+        "function_calling",
+        "developer_message",
+        "image_content",
+        "response_json_object",
+        "response_json_schema",
+        "reasoning_effort",
+        "detailed_reasoning_summary"
+      ],
+      "max_tokens": 100000
+    },
+    {
+      "object": "model",
+      "id": "gpt-4o-mini-2024-07-18",
+      "supported_methods": [
+        "chat.completions",
+        "responses"
+      ],
+      "groups": [
+        "gpt_4o"
+      ],
+      "features": [
+        "streaming",
+        "function_calling",
+        "parallel_tool_calls",
+        "system_message",
+        "image_content",
+        "response_json_object",
+        "response_json_schema",
+        "advanced_config",
+        "file_search",
+        "web_search",
+        "file_content"
+      ],
+      "max_tokens": 16384
+    },
+    {
+      "object": "model",
+      "id": "gpt-4o-mini-transcribe",
+      "supported_methods": [
+        "audio.transcription"
+      ],
+      "groups": [
+        "gpt_4o"
+      ],
+      "features": [
+        "streaming"
+      ],
+      "max_tokens": 2049
+    },
+    {
+      "object": "model",
+      "id": "o1-mini",
+      "supported_methods": [
+        "chat.completions"
+      ],
+      "groups": [
+        "reasoning"
+      ],
+      "features": [
+        "streaming"
+      ],
+      "max_tokens": 65536
+    },
+    {
+      "object": "model",
+      "id": "gpt-4o-mini-audio-preview-2024-12-17",
+      "supported_methods": [
+        "chat.completions"
+      ],
+      "groups": [
+        "gpt_4o"
+      ],
+      "features": [
+        "streaming",
+        "audio",
+        "function_calling",
+        "parallel_tool_calls",
+        "system_message",
+        "advanced_config",
+        "file_search",
+        "file_content"
+      ],
+      "max_tokens": 16384
+    },
+    {
+      "object": "model",
+      "id": "gpt-3.5-turbo-0125",
+      "supported_methods": [
+        "chat.completions",
+        "responses"
+      ],
+      "groups": [
+        "gpt_3"
+      ],
+      "features": [
+        "streaming",
+        "function_calling",
+        "parallel_tool_calls",
+        "system_message",
+        "response_json_object",
+        "advanced_config"
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "object": "model",
+      "id": "o1-mini-2024-09-12",
+      "supported_methods": [
+        "chat.completions"
+      ],
+      "groups": [
+        "reasoning"
+      ],
+      "features": [
+        "streaming"
+      ],
+      "max_tokens": 65536
+    },
+    {
+      "object": "model",
+      "id": "gpt-4-1106-preview",
+      "supported_methods": [
+        "chat.completions",
+        "responses"
+      ],
+      "groups": [
+        "gpt_4"
+      ],
+      "features": [
+        "streaming",
+        "function_calling",
+        "parallel_tool_calls",
+        "system_message",
+        "image_content",
+        "response_json_object",
+        "advanced_config"
+      ],
+      "max_tokens": 4096
+    },
+    {
+      "object": "model",
+      "id": "omni-moderation-latest",
+      "supported_methods": [],
+      "groups": [],
+      "features": [],
+      "max_tokens": 2049
+    }
+  ]
+}
